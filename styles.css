@@ -1,0 +1,142 @@
+body {
+    background-color: #272727;
+    font-family: "Montserrat";
+    margin: 0 auto;
+    text-align: center;
+}
+
+.squareBoxes {
+    width: 30%;
+    float: left;
+    padding-bottom: 30%;
+    margin: 1.5%;
+    border-radius: 100px;
+    transition: background 0.7s;
+}
+
+#container {
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+.heading {
+    line-height: 0.6;
+}
+
+h1,
+span {
+    color: #fff;
+    font-weight: normal;
+    padding: 0;
+}
+
+.orange {
+    color: orange;
+}
+
+.green {
+    color: green;
+}
+
+.selectedBtn {
+    background-color: red;
+}
+
+#sub-container {
+    background-color: #fff;
+    margin-bottom: 15px;
+    padding: 0;
+    line-height: 1.1;
+}
+
+.RGB {
+    font-size: 40px;
+    text-transform: uppercase;
+}
+
+p {
+    margin: 0;
+    padding: 10px;
+}
+
+.message {
+    display: inline-block;
+    color: #fff;
+    font-weight: 800;
+    height: 100%;
+    padding: 0;
+    font-size: 30px;
+}
+
+.messageColor {
+    background-color: #232323;
+    height: 40px;
+}
+
+button {
+    border: none;
+    text-transform: uppercase;
+    background: none;
+    font-weight: 800;
+    height: 100%;
+    padding: 5px;
+    transition: all 0.4s;
+}
+
+button:hover {
+    background-color: grey;
+}
+
+/* Animation */
+
+.ml4 {
+    position: relative;
+    font-weight: 900;
+    font-size: 30px;
+}
+
+.ml4 .message {
+    position: absolute;
+    margin: auto;
+    left: 0;
+    top: 0.3em;
+    right: 0;
+    opacity: 0;
+}
+
+.ml15 {
+    /* font-weight: 800; */
+    font-size: 30px;
+    /* text-transform: uppercase; */
+    letter-spacing: 3px;
+}
+
+.ml15 .message {
+    display: inline-block;
+    line-height: 1em;
+}
+
+/* Ashoka Chakra in the middle of 2nd h1 */
+/* .heading_RGB {
+    text-transform: uppercase;
+    font-weight: 900;
+    letter-spacing: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    margin: 0;
+    background: url(https://upload.wikimedia.org/wikipedia/commons/thumb/1/17/Ashoka_Chakra.svg/1200px-Ashoka_Chakra.svg.png) 50% 50%;
+    background-size: cover;
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip:text;
+} */
+
+
+/* .footer {
+    position: absolute;
+    background-color: #fff;
+    bottom: 0;
+    text-align: center;
+    margin: 0 auto;
+} */
