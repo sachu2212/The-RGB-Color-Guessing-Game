@@ -194,11 +194,11 @@ document.querySelector(".hardBtn").addEventListener("click", function () {
 });
 
 function addClass() {
-    document.querySelector(".heading h1:last-of-type").classList.add("orange"); //first h1
-    document.querySelector(".heading h1:first-of-type").classList.add("green"); //last h1
+    document.querySelector(".heading h1:last-of-type").classList.add("green"); //first h1
+    document.querySelector(".heading h1:first-of-type").classList.add("orange"); //last h1
 }
 
 function removeClass() {
-    document.querySelector(".heading h1:last-of-type").classList.remove("orange"); //first h1
-    document.querySelector(".heading h1:first-of-type").classList.remove("green"); //last h1
+    document.querySelector(".heading h1:last-of-type").classList.remove("green"); //first h1
+    document.querySelector(".heading h1:first-of-type").classList.remove("orange"); //last h1
 }
